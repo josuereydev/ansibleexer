@@ -1,0 +1,7 @@
+---
+- name: Primer playbook
+  host: all
+
+  task:
+  - name: Hacer un ping
+    ansible.builting.ping:
